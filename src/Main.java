@@ -11,7 +11,7 @@ public class Main {
 
         Barang barang2 = new Barang(
                 "BRG-002",
-                "Flash Disk",
+                "Keyboard",
                 5,
                 "Laboratorium Komputer");
 

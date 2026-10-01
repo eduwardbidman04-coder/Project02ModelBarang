@@ -16,15 +16,22 @@ public class Main {
                 "Laboratorium Komputer");
         
         Barang barang4 = new Barang(
-                "BRG-002",
+                "BRG-004",
                 "CPU",
                 5,
                 "Laboratorium Komputer");
+        
+        Barang barang5 = new Barang(
+                "BRG-005",
+                "Flash Disk",
+                10,
+                "Laboratorium Komputer") ;
 
         System.out.println("=== DAFTAR BARANG ===");
         System.out.println(barang1.tampilkanInfo());
         System.out.println(barang2.tampilkanInfo());
         System.out.println(barang4.tampilkanInfo());
+        System.out.println(barang5.tampilkanInfo());
 
         barang1.setStok(12);
 
